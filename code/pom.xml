@@ -21,11 +21,11 @@
 </dependency>
   </dependencies>
   <distributionManagement>
-    <Repository>
+    <repository>
     <id>nexus</id>
      <name>Nexus_release</name>
     <url>http://52.27.125.187:8085/nexus/content/repositories/snapshots</url>
-    </Repository>
+    </repository>
     <snapshotRepository>
     <id>nexus</id>
     <name>snapshots</name>
