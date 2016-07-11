@@ -14,6 +14,17 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+	<groupId>com.sun.jersey</groupId>
+	<artifactId>jersey-client</artifactId>
+	<version>1.12</version>
+</dependency>
   </dependencies>
+  <distributionManagement>
+    <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://52.27.125.187:8085/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
 
